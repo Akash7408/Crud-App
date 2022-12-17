@@ -1,0 +1,39 @@
+*{
+	box-sizing: border-box;
+}
+#outer
+{
+	height:800px;
+	width:800px;
+	border:1px solid red;
+	
+}
+.row
+{
+	border: 1px solid black;
+	height: 200px;
+	width: 800px;
+
+}
+.row-child
+{
+	//border: 1px solid green;
+	height: 100px;
+    width: 800px;
+}
+.box-even
+{
+   border: 1px solid red;
+   height: 100px;
+   width: 100px;
+   background: black;
+   float: left;
+}
+.box-odd
+{
+   border: 1px solid red;
+   height: 100px;
+   width: 100px;
+   background: whitesmoke;
+   float: left;
+}
